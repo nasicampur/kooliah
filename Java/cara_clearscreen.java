@@ -8,6 +8,5 @@ public class cara_clearscreen {
     public static void main(String[] args) {
       clrscr();
       System.out.println("Follow @renebaebae");
-      
   }
 }
