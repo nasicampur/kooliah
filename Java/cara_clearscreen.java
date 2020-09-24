@@ -1,4 +1,4 @@
-public class cara_clearscreen_di_java {
+public class cara_clearscreen {
 
     public static void clrscr() {  
       System.out.print("\033[H\033[2J");  
