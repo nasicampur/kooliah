@@ -5,7 +5,6 @@ public class ganjilGenap {
 
         Scanner input = new Scanner(System.in);
         int var1;
-        input.close();
         
         System.out.print("Input sembarang angka: ");
         var1 = input.nextInt();
@@ -17,6 +16,6 @@ public class ganjilGenap {
         else {
         System.out.print(var1 + " adalah angka genap");
         }
-        
+        input.close();
     }
 }
