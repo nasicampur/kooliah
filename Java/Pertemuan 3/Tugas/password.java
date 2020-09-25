@@ -11,7 +11,8 @@ public class password {
         username = inp.next();
         System.out.print("Masukkan password: ");
         password = inp.nextInt();
-
+        inp.close();
+        
         if(password == 123456){
             hasil = true;
             System.out.print("Password yang anda input? " + hasil);
