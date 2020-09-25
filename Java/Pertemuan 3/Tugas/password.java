@@ -4,7 +4,7 @@ public class password {
     public static void main(String[] args) {
         Scanner inp = new Scanner(System.in);
         String username, password;
-        boolean hasil = true;
+        boolean hasil;
         
         System.out.print("Masukkan username: ");
         username = inp.next();
