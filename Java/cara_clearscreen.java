@@ -1,8 +1,12 @@
 public class cara_clearscreen {
 
-    public static void clrscr() {  
-      System.out.print("\033[H\033[2J");  
-      System.out.flush();  
+    public static void clrscr(){
+        try {
+            if (System.getProperty("os.name").contains("Windows"))
+                new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
+            else
+                Runtime.getRuntime().exec("clear");
+        } catch (IOException | InterruptedException ex) {}
     }
     
     public static void main(String[] args) {
