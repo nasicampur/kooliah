@@ -1,0 +1,19 @@
+<html>
+   <body>
+      <p> Klik tombol untuk menampilkan pengulangan dengan
+      fungsi WHILE.</p>
+      <button onclick="myFunction()">Klik</button>
+      <p id="demo"></p>
+      <script>
+         function myFunction() {
+         var text = "";
+         var i;
+         for (i = 0; i < 5; i++) {
+         text += "Hasil Pengulangan " + i + "<br>";
+         }
+         document.getElementById("demo").innerHTML =
+         text;
+         }
+      </script>
+   </body>
+</html>
