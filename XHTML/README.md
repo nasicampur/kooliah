@@ -26,7 +26,7 @@ Link modul: https://drive.google.com/file/d/1_Lzb4IoPdlXh0zOjpS5KIkgTGoHMBWVM/vi
 Link modul: https://drive.google.com/file/d/1cZHoLTeCePCvTqonExkwyE71iowxOx1_/view
 
 - Pertemuan 10 \
-Link modul: belum
+Link modul: https://drive.google.com/file/d/1ylBafumCcI4aa0JQDWeqG6PLRaE96kUQ/view
 
 - Pertemuan 11 \
 Link modul: belum
