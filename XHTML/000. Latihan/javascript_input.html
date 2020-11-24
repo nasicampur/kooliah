@@ -1,0 +1,17 @@
+<html>
+   <body>
+      <input type="integer" id="y" />
+      <input type="integer" id="z" />
+      <button onclick="pertambahan()">Hasil</button>
+      <p>Hasil: <span id="hasil"></span></p>
+      <p id="hasil"></p>
+      <script>
+         function pertambahan() {
+            y = document.getElementById("y").value;
+            z = document.getElementById("z").value;
+            x = Number(y) + Number(z);
+            document.getElementById("hasil").innerHTML = x;
+         }
+      </script>
+   </body>
+</html>
