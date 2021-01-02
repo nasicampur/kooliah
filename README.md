@@ -1,2 +1,2 @@
 # kooliah
-kumpulan codingan dari kampus atau dari mana aja
+Kumpulang codingan dari mana aja.
