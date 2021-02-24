@@ -1,2 +1,2 @@
 # kooliah
-Kumpulan codingan.
+kumpulan codingan gan.
